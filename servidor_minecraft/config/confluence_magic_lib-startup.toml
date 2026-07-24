@@ -1,0 +1,8 @@
+# Default: -1
+# Range: -9223372036854775808 ~ 9223372036854775807
+modifyTime = 1782804745028
+version = "1.2.4"
+messageDigest = "$1$tur3m1an$IqpY6fPFFreL0CGpkjvp90"
+# Default: -1
+# Range: > -2147483648
+alarmTimes = 0
