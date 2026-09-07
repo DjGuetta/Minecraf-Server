@@ -1,0 +1,4386 @@
+[
+  {
+    "timestamp": 1782807302550,
+    "reload_number": 2,
+    "total_ms": 1,
+    "cache_hit": false,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 1
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782807302549
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782807302550
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782807302550
+      }
+    ]
+  },
+  {
+    "timestamp": 1782808913016,
+    "reload_number": 1,
+    "total_ms": 1863,
+    "cache_hit": false,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 2
+      },
+      {
+        "name": "Initializing plugin from emi",
+        "duration_ms": 70
+      },
+      {
+        "name": "Initializing plugin from sophisticatedcore",
+        "duration_ms": 12
+      },
+      {
+        "name": "Initializing plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from curios",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from sophisticatedstorage",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from ali",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from toomanyrecipeviewers",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Initializing...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 7
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 0
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 22
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from emi",
+        "duration_ms": 301
+      },
+      {
+        "name": "Loading plugin from sophisticatedcore",
+        "duration_ms": 294
+      },
+      {
+        "name": "Loading plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from curios",
+        "duration_ms": 71
+      },
+      {
+        "name": "Loading plugin from sophisticatedstorage",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from ali",
+        "duration_ms": 110
+      },
+      {
+        "name": "Loading plugin from toomanyrecipeviewers",
+        "duration_ms": 209
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 13
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 8ms",
+        "duration_ms": 8
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 8ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 57
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 1ms",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 1ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` with default strategy `SYNC_EMI`...",
+        "duration_ms": 12
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` with default strategy `SYNC_EMI`...",
+        "duration_ms": 27
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 55ms",
+        "duration_ms": 55
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 55ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` with default strategy `SYNC_EMI`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 58ms",
+        "duration_ms": 58
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 58ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` with default strategy `SYNC_EMI`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` with default strategy `SYNC_EMI`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` with default strategy `ASYNC`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 59ms",
+        "duration_ms": 59
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 59ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 12
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 3ms",
+        "duration_ms": 3
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 3ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 2ms",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 2ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` with default strategy `SYNC_EMI`...",
+        "duration_ms": 6
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` with default strategy `SYNC_EMI`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Locking JEI Ingredient Registry...",
+        "duration_ms": 3
+      },
+      {
+        "name": "[TMRV] Locking JEI Recipe Registry...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Registering late recipes",
+        "duration_ms": 42
+      },
+      {
+        "name": "Baking recipes",
+        "duration_ms": 2
+      },
+      {
+        "name": "Baking search",
+        "duration_ms": 363
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 26
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 9
+      }
+    ],
+    "phases": [
+      {
+        "name": "searchWidget.update",
+        "duration_ms": 4
+      },
+      {
+        "name": "getCraftables",
+        "duration_ms": 0
+      },
+      {
+        "name": "recalculate",
+        "duration_ms": 3
+      },
+      {
+        "name": "forceRecalculate",
+        "duration_ms": 3
+      },
+      {
+        "name": "reloadLog.bake",
+        "duration_ms": 0
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782808911156
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782808911162
+      },
+      {
+        "name": "tags_reload",
+        "timestamp_ms": 1782808911244
+      },
+      {
+        "name": "stacklist_reload",
+        "timestamp_ms": 1782808911267
+      },
+      {
+        "name": "stacklist_bake",
+        "timestamp_ms": 1782808912574
+      },
+      {
+        "name": "recipes_bake",
+        "timestamp_ms": 1782808912618
+      },
+      {
+        "name": "bom_reload",
+        "timestamp_ms": 1782808912966
+      },
+      {
+        "name": "persistent_data_load",
+        "timestamp_ms": 1782808912968
+      },
+      {
+        "name": "step_Baking_search",
+        "timestamp_ms": 1782808912981
+      },
+      {
+        "name": "search_bake",
+        "timestamp_ms": 1782808912981
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782808913007
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782808913007
+      },
+      {
+        "name": "after_search_update",
+        "timestamp_ms": 1782808913011
+      },
+      {
+        "name": "after_force_recalculate",
+        "timestamp_ms": 1782808913014
+      },
+      {
+        "name": "after_reload_log_bake",
+        "timestamp_ms": 1782808913015
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782808913016
+      }
+    ]
+  },
+  {
+    "timestamp": 1782808977401,
+    "reload_number": 2,
+    "total_ms": 1,
+    "cache_hit": false,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 1
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782808977400
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782808977401
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782808977401
+      }
+    ]
+  },
+  {
+    "timestamp": 1782809553546,
+    "reload_number": 1,
+    "total_ms": 1725,
+    "cache_hit": true,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 2
+      },
+      {
+        "name": "Initializing plugin from emi",
+        "duration_ms": 96
+      },
+      {
+        "name": "Initializing plugin from sophisticatedcore",
+        "duration_ms": 12
+      },
+      {
+        "name": "Initializing plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from curios",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from sophisticatedstorage",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from ali",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from toomanyrecipeviewers",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Initializing...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 8
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 0
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 25
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from emi",
+        "duration_ms": 53
+      },
+      {
+        "name": "Loading plugin from sophisticatedcore",
+        "duration_ms": 290
+      },
+      {
+        "name": "Loading plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from curios",
+        "duration_ms": 89
+      },
+      {
+        "name": "Loading plugin from sophisticatedstorage",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from ali",
+        "duration_ms": 166
+      },
+      {
+        "name": "Loading plugin from toomanyrecipeviewers",
+        "duration_ms": 158
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 14
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 3ms",
+        "duration_ms": 3
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 3ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 40
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 1ms",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 1ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` with default strategy `SYNC_EMI`...",
+        "duration_ms": 10
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` with default strategy `SYNC_EMI`...",
+        "duration_ms": 26
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 52ms",
+        "duration_ms": 52
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 52ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` with default strategy `SYNC_EMI`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 49ms",
+        "duration_ms": 49
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 49ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` with default strategy `SYNC_EMI`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 1ms",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 1ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` with default strategy `SYNC_EMI`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` with default strategy `ASYNC`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 60ms",
+        "duration_ms": 60
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 60ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 12
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 12ms",
+        "duration_ms": 12
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 12ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 1ms",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 1ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` with default strategy `SYNC_EMI`...",
+        "duration_ms": 5
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Locking JEI Ingredient Registry...",
+        "duration_ms": 4
+      },
+      {
+        "name": "[TMRV] Locking JEI Recipe Registry...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Registering late recipes",
+        "duration_ms": 43
+      },
+      {
+        "name": "Baking recipes",
+        "duration_ms": 1
+      },
+      {
+        "name": "Baking search",
+        "duration_ms": 444
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 32
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 9
+      }
+    ],
+    "phases": [
+      {
+        "name": "searchWidget.update",
+        "duration_ms": 3
+      },
+      {
+        "name": "getCraftables",
+        "duration_ms": 0
+      },
+      {
+        "name": "recalculate",
+        "duration_ms": 4
+      },
+      {
+        "name": "forceRecalculate",
+        "duration_ms": 4
+      },
+      {
+        "name": "reloadLog.bake",
+        "duration_ms": 0
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782809551823
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782809551830
+      },
+      {
+        "name": "tags_reload",
+        "timestamp_ms": 1782809551939
+      },
+      {
+        "name": "stacklist_reload",
+        "timestamp_ms": 1782809551965
+      },
+      {
+        "name": "stacklist_bake",
+        "timestamp_ms": 1782809553017
+      },
+      {
+        "name": "recipes_bake",
+        "timestamp_ms": 1782809553061
+      },
+      {
+        "name": "bom_reload",
+        "timestamp_ms": 1782809553489
+      },
+      {
+        "name": "persistent_data_load",
+        "timestamp_ms": 1782809553491
+      },
+      {
+        "name": "step_Baking_search",
+        "timestamp_ms": 1782809553505
+      },
+      {
+        "name": "search_bake",
+        "timestamp_ms": 1782809553505
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782809553537
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782809553537
+      },
+      {
+        "name": "after_search_update",
+        "timestamp_ms": 1782809553541
+      },
+      {
+        "name": "after_force_recalculate",
+        "timestamp_ms": 1782809553545
+      },
+      {
+        "name": "after_reload_log_bake",
+        "timestamp_ms": 1782809553546
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782809553546
+      }
+    ]
+  },
+  {
+    "timestamp": 1782862038917,
+    "reload_number": 1,
+    "total_ms": 1974,
+    "cache_hit": false,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 1
+      },
+      {
+        "name": "Initializing plugin from emi",
+        "duration_ms": 58
+      },
+      {
+        "name": "Initializing plugin from sophisticatedcore",
+        "duration_ms": 8
+      },
+      {
+        "name": "Initializing plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from curios",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from sophisticatedstorage",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from ali",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from toomanyrecipeviewers",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Initializing...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 4
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 0
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 19
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from emi",
+        "duration_ms": 394
+      },
+      {
+        "name": "Loading plugin from sophisticatedcore",
+        "duration_ms": 360
+      },
+      {
+        "name": "Loading plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from curios",
+        "duration_ms": 79
+      },
+      {
+        "name": "Loading plugin from sophisticatedstorage",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from ali",
+        "duration_ms": 174
+      },
+      {
+        "name": "Loading plugin from toomanyrecipeviewers",
+        "duration_ms": 164
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 16
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 9ms",
+        "duration_ms": 9
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 9ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 39
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 2ms",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 2ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 1ms",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 1ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` with default strategy `SYNC_EMI`...",
+        "duration_ms": 13
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` with default strategy `SYNC_EMI`...",
+        "duration_ms": 27
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 55ms",
+        "duration_ms": 55
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 55ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 69ms",
+        "duration_ms": 71
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 69ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` with default strategy `SYNC_EMI`...",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` with default strategy `ASYNC`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 56ms",
+        "duration_ms": 56
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 56ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 13
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 3ms",
+        "duration_ms": 3
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 3ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 3
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 2ms",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 2ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` with default strategy `SYNC_EMI`...",
+        "duration_ms": 8
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 0ms",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Locking JEI Ingredient Registry...",
+        "duration_ms": 5
+      },
+      {
+        "name": "[TMRV] Locking JEI Recipe Registry...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Registering late recipes",
+        "duration_ms": 43
+      },
+      {
+        "name": "Baking recipes",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking search",
+        "duration_ms": 312
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 25
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 5
+      }
+    ],
+    "phases": [
+      {
+        "name": "searchWidget.update",
+        "duration_ms": 1
+      },
+      {
+        "name": "getCraftables",
+        "duration_ms": 0
+      },
+      {
+        "name": "recalculate",
+        "duration_ms": 4
+      },
+      {
+        "name": "forceRecalculate",
+        "duration_ms": 4
+      },
+      {
+        "name": "reloadLog.bake",
+        "duration_ms": 0
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782862036944
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782862036951
+      },
+      {
+        "name": "tags_reload",
+        "timestamp_ms": 1782862037014
+      },
+      {
+        "name": "stacklist_reload",
+        "timestamp_ms": 1782862037034
+      },
+      {
+        "name": "stacklist_bake",
+        "timestamp_ms": 1782862038532
+      },
+      {
+        "name": "recipes_bake",
+        "timestamp_ms": 1782862038575
+      },
+      {
+        "name": "bom_reload",
+        "timestamp_ms": 1782862038874
+      },
+      {
+        "name": "persistent_data_load",
+        "timestamp_ms": 1782862038875
+      },
+      {
+        "name": "step_Baking_search",
+        "timestamp_ms": 1782862038887
+      },
+      {
+        "name": "search_bake",
+        "timestamp_ms": 1782862038887
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782862038912
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782862038912
+      },
+      {
+        "name": "after_search_update",
+        "timestamp_ms": 1782862038913
+      },
+      {
+        "name": "after_force_recalculate",
+        "timestamp_ms": 1782862038917
+      },
+      {
+        "name": "after_reload_log_bake",
+        "timestamp_ms": 1782862038917
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782862038917
+      }
+    ]
+  },
+  {
+    "timestamp": 1782862059575,
+    "reload_number": 2,
+    "total_ms": 2,
+    "cache_hit": false,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 2
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782862059573
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782862059575
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782862059575
+      }
+    ]
+  },
+  {
+    "timestamp": 1782862116623,
+    "reload_number": 1,
+    "total_ms": 1873,
+    "cache_hit": false,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from emi",
+        "duration_ms": 58
+      },
+      {
+        "name": "Initializing plugin from sophisticatedcore",
+        "duration_ms": 9
+      },
+      {
+        "name": "Initializing plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from curios",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from sophisticatedstorage",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from ali",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from toomanyrecipeviewers",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Initializing...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 4
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 0
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 19
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from emi",
+        "duration_ms": 416
+      },
+      {
+        "name": "Loading plugin from sophisticatedcore",
+        "duration_ms": 289
+      },
+      {
+        "name": "Loading plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from curios",
+        "duration_ms": 86
+      },
+      {
+        "name": "Loading plugin from sophisticatedstorage",
+        "duration_ms": 1
+      },
+      {
+        "name": "Loading plugin from ali",
+        "duration_ms": 136
+      },
+      {
+        "name": "Loading plugin from toomanyrecipeviewers",
+        "duration_ms": 201
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 13
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 10ms",
+        "duration_ms": 10
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 10ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 41
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 1ms",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 1ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` with default strategy `ASYNC`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` with default strategy `SYNC_EMI`...",
+        "duration_ms": 13
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` with default strategy `SYNC_EMI`...",
+        "duration_ms": 23
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 53ms",
+        "duration_ms": 53
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 53ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 45ms",
+        "duration_ms": 45
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 45ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` with default strategy `SYNC_EMI`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` with default strategy `SYNC_EMI`...",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` with default strategy `ASYNC`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 55ms",
+        "duration_ms": 55
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 55ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 11
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 3ms",
+        "duration_ms": 3
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 3ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 3
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` with default strategy `SYNC_EMI`...",
+        "duration_ms": 10
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Locking JEI Ingredient Registry...",
+        "duration_ms": 4
+      },
+      {
+        "name": "[TMRV] Locking JEI Recipe Registry...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Registering late recipes",
+        "duration_ms": 36
+      },
+      {
+        "name": "Baking recipes",
+        "duration_ms": 1
+      },
+      {
+        "name": "Baking search",
+        "duration_ms": 291
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 25
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 10
+      }
+    ],
+    "phases": [
+      {
+        "name": "searchWidget.update",
+        "duration_ms": 5
+      },
+      {
+        "name": "getCraftables",
+        "duration_ms": 0
+      },
+      {
+        "name": "recalculate",
+        "duration_ms": 3
+      },
+      {
+        "name": "forceRecalculate",
+        "duration_ms": 3
+      },
+      {
+        "name": "reloadLog.bake",
+        "duration_ms": 0
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782862114750
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782862114756
+      },
+      {
+        "name": "tags_reload",
+        "timestamp_ms": 1782862114821
+      },
+      {
+        "name": "stacklist_reload",
+        "timestamp_ms": 1782862114842
+      },
+      {
+        "name": "stacklist_bake",
+        "timestamp_ms": 1782862116260
+      },
+      {
+        "name": "recipes_bake",
+        "timestamp_ms": 1782862116297
+      },
+      {
+        "name": "bom_reload",
+        "timestamp_ms": 1782862116577
+      },
+      {
+        "name": "persistent_data_load",
+        "timestamp_ms": 1782862116578
+      },
+      {
+        "name": "step_Baking_search",
+        "timestamp_ms": 1782862116588
+      },
+      {
+        "name": "search_bake",
+        "timestamp_ms": 1782862116588
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782862116613
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782862116613
+      },
+      {
+        "name": "after_search_update",
+        "timestamp_ms": 1782862116618
+      },
+      {
+        "name": "after_force_recalculate",
+        "timestamp_ms": 1782862116621
+      },
+      {
+        "name": "after_reload_log_bake",
+        "timestamp_ms": 1782862116623
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782862116623
+      }
+    ]
+  },
+  {
+    "timestamp": 1782862229170,
+    "reload_number": 1,
+    "total_ms": 1554,
+    "cache_hit": false,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 1
+      },
+      {
+        "name": "Initializing plugin from emi",
+        "duration_ms": 45
+      },
+      {
+        "name": "Initializing plugin from sophisticatedcore",
+        "duration_ms": 8
+      },
+      {
+        "name": "Initializing plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from curios",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from sophisticatedstorage",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from ali",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from toomanyrecipeviewers",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Initializing...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 3
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 0
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 18
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from emi",
+        "duration_ms": 281
+      },
+      {
+        "name": "Loading plugin from sophisticatedcore",
+        "duration_ms": 251
+      },
+      {
+        "name": "Loading plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from curios",
+        "duration_ms": 54
+      },
+      {
+        "name": "Loading plugin from sophisticatedstorage",
+        "duration_ms": 1
+      },
+      {
+        "name": "Loading plugin from ali",
+        "duration_ms": 129
+      },
+      {
+        "name": "Loading plugin from toomanyrecipeviewers",
+        "duration_ms": 165
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 13
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 7ms",
+        "duration_ms": 7
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 7ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 34
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 2ms",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 2ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` with default strategy `SYNC_EMI`...",
+        "duration_ms": 10
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` with default strategy `SYNC_EMI`...",
+        "duration_ms": 32
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 48ms",
+        "duration_ms": 48
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 48ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 33ms",
+        "duration_ms": 33
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 33ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` with default strategy `SYNC_EMI`...",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` with default strategy `ASYNC`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 47ms",
+        "duration_ms": 47
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 47ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 9
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 4ms",
+        "duration_ms": 4
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 4ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 2ms",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 2ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` with default strategy `SYNC_EMI`...",
+        "duration_ms": 5
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` with default strategy `SYNC_EMI`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Locking JEI Ingredient Registry...",
+        "duration_ms": 3
+      },
+      {
+        "name": "[TMRV] Locking JEI Recipe Registry...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Registering late recipes",
+        "duration_ms": 32
+      },
+      {
+        "name": "Baking recipes",
+        "duration_ms": 1
+      },
+      {
+        "name": "Baking search",
+        "duration_ms": 251
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 50
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 8
+      }
+    ],
+    "phases": [
+      {
+        "name": "searchWidget.update",
+        "duration_ms": 4
+      },
+      {
+        "name": "getCraftables",
+        "duration_ms": 0
+      },
+      {
+        "name": "recalculate",
+        "duration_ms": 2
+      },
+      {
+        "name": "forceRecalculate",
+        "duration_ms": 2
+      },
+      {
+        "name": "reloadLog.bake",
+        "duration_ms": 0
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782862227617
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782862227623
+      },
+      {
+        "name": "tags_reload",
+        "timestamp_ms": 1782862227673
+      },
+      {
+        "name": "stacklist_reload",
+        "timestamp_ms": 1782862227692
+      },
+      {
+        "name": "stacklist_bake",
+        "timestamp_ms": 1782862228828
+      },
+      {
+        "name": "recipes_bake",
+        "timestamp_ms": 1782862228861
+      },
+      {
+        "name": "bom_reload",
+        "timestamp_ms": 1782862229096
+      },
+      {
+        "name": "persistent_data_load",
+        "timestamp_ms": 1782862229096
+      },
+      {
+        "name": "step_Baking_search",
+        "timestamp_ms": 1782862229112
+      },
+      {
+        "name": "search_bake",
+        "timestamp_ms": 1782862229112
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782862229162
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782862229162
+      },
+      {
+        "name": "after_search_update",
+        "timestamp_ms": 1782862229166
+      },
+      {
+        "name": "after_force_recalculate",
+        "timestamp_ms": 1782862229168
+      },
+      {
+        "name": "after_reload_log_bake",
+        "timestamp_ms": 1782862229170
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782862229170
+      }
+    ]
+  },
+  {
+    "timestamp": 1782862257984,
+    "reload_number": 2,
+    "total_ms": 1,
+    "cache_hit": false,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 1
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782862257983
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782862257984
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782862257984
+      }
+    ]
+  },
+  {
+    "timestamp": 1782862651003,
+    "reload_number": 1,
+    "total_ms": 29,
+    "cache_hit": false,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 29
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782862650974
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782862650981
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782862650997
+      }
+    ]
+  },
+  {
+    "timestamp": 1782863062456,
+    "reload_number": 1,
+    "total_ms": 19,
+    "cache_hit": false,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 19
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782863062439
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782863062443
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782863062452
+      }
+    ]
+  },
+  {
+    "timestamp": 1782863131590,
+    "reload_number": 1,
+    "total_ms": 1521,
+    "cache_hit": false,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from emi",
+        "duration_ms": 46
+      },
+      {
+        "name": "Initializing plugin from sophisticatedcore",
+        "duration_ms": 9
+      },
+      {
+        "name": "Initializing plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from curios",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from sophisticatedstorage",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from ali",
+        "duration_ms": 1
+      },
+      {
+        "name": "Initializing plugin from toomanyrecipeviewers",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Initializing...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 3
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 0
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 18
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from emi",
+        "duration_ms": 254
+      },
+      {
+        "name": "Loading plugin from sophisticatedcore",
+        "duration_ms": 348
+      },
+      {
+        "name": "Loading plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from curios",
+        "duration_ms": 65
+      },
+      {
+        "name": "Loading plugin from sophisticatedstorage",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from ali",
+        "duration_ms": 111
+      },
+      {
+        "name": "Loading plugin from toomanyrecipeviewers",
+        "duration_ms": 119
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 10
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 10ms",
+        "duration_ms": 10
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 10ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 30
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 1ms",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 1ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` with default strategy `ASYNC`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` with default strategy `SYNC_EMI`...",
+        "duration_ms": 10
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` with default strategy `SYNC_EMI`...",
+        "duration_ms": 30
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 48ms",
+        "duration_ms": 48
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 48ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 36ms",
+        "duration_ms": 36
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 36ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` with default strategy `SYNC_EMI`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 1ms",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 1ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 64ms",
+        "duration_ms": 64
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 64ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 8
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 3ms",
+        "duration_ms": 3
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 3ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 1ms",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 1ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` with default strategy `SYNC_EMI`...",
+        "duration_ms": 5
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Locking JEI Ingredient Registry...",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Locking JEI Recipe Registry...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Registering late recipes",
+        "duration_ms": 32
+      },
+      {
+        "name": "Baking recipes",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking search",
+        "duration_ms": 239
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 5
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 9
+      }
+    ],
+    "phases": [
+      {
+        "name": "searchWidget.update",
+        "duration_ms": 4
+      },
+      {
+        "name": "getCraftables",
+        "duration_ms": 0
+      },
+      {
+        "name": "recalculate",
+        "duration_ms": 3
+      },
+      {
+        "name": "forceRecalculate",
+        "duration_ms": 3
+      },
+      {
+        "name": "reloadLog.bake",
+        "duration_ms": 0
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782863130070
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782863130075
+      },
+      {
+        "name": "tags_reload",
+        "timestamp_ms": 1782863130128
+      },
+      {
+        "name": "stacklist_reload",
+        "timestamp_ms": 1782863130149
+      },
+      {
+        "name": "stacklist_bake",
+        "timestamp_ms": 1782863131305
+      },
+      {
+        "name": "recipes_bake",
+        "timestamp_ms": 1782863131337
+      },
+      {
+        "name": "bom_reload",
+        "timestamp_ms": 1782863131564
+      },
+      {
+        "name": "persistent_data_load",
+        "timestamp_ms": 1782863131565
+      },
+      {
+        "name": "step_Baking_search",
+        "timestamp_ms": 1782863131576
+      },
+      {
+        "name": "search_bake",
+        "timestamp_ms": 1782863131576
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782863131581
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782863131581
+      },
+      {
+        "name": "after_search_update",
+        "timestamp_ms": 1782863131585
+      },
+      {
+        "name": "after_force_recalculate",
+        "timestamp_ms": 1782863131588
+      },
+      {
+        "name": "after_reload_log_bake",
+        "timestamp_ms": 1782863131590
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782863131590
+      }
+    ]
+  },
+  {
+    "timestamp": 1782863184979,
+    "reload_number": 2,
+    "total_ms": 1,
+    "cache_hit": false,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 1
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782863184978
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782863184978
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782863184979
+      }
+    ]
+  },
+  {
+    "timestamp": 1782863340210,
+    "reload_number": 1,
+    "total_ms": 2001,
+    "cache_hit": false,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 1
+      },
+      {
+        "name": "Initializing plugin from emi",
+        "duration_ms": 70
+      },
+      {
+        "name": "Initializing plugin from sophisticatedcore",
+        "duration_ms": 11
+      },
+      {
+        "name": "Initializing plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from curios",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from travelerscompass",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from sophisticatedstorage",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from ali",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from toomanyrecipeviewers",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Initializing...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 4
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 0
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 19
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from emi",
+        "duration_ms": 324
+      },
+      {
+        "name": "Loading plugin from sophisticatedcore",
+        "duration_ms": 530
+      },
+      {
+        "name": "Loading plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from curios",
+        "duration_ms": 68
+      },
+      {
+        "name": "Loading plugin from travelerscompass",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from sophisticatedstorage",
+        "duration_ms": 4
+      },
+      {
+        "name": "Loading plugin from ali",
+        "duration_ms": 111
+      },
+      {
+        "name": "Loading plugin from toomanyrecipeviewers",
+        "duration_ms": 137
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 9
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 11ms",
+        "duration_ms": 11
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 11ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 63
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 1ms",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 1ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 1ms",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 1ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` with default strategy `SYNC_EMI`...",
+        "duration_ms": 10
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` with default strategy `SYNC_EMI`...",
+        "duration_ms": 23
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 75ms",
+        "duration_ms": 75
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 75ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 58ms",
+        "duration_ms": 58
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 58ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` with default strategy `SYNC_EMI`...",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` with default strategy `ASYNC`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 56ms",
+        "duration_ms": 56
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 56ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 13
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 4ms",
+        "duration_ms": 4
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 4ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 3
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 2ms",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 2ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` with default strategy `SYNC_EMI`...",
+        "duration_ms": 7
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` with default strategy `SYNC_EMI`...",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Locking JEI Ingredient Registry...",
+        "duration_ms": 3
+      },
+      {
+        "name": "[TMRV] Locking JEI Recipe Registry...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Registering late recipes",
+        "duration_ms": 34
+      },
+      {
+        "name": "Baking recipes",
+        "duration_ms": 2
+      },
+      {
+        "name": "Baking search",
+        "duration_ms": 304
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 28
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 10
+      }
+    ],
+    "phases": [
+      {
+        "name": "searchWidget.update",
+        "duration_ms": 4
+      },
+      {
+        "name": "getCraftables",
+        "duration_ms": 0
+      },
+      {
+        "name": "recalculate",
+        "duration_ms": 4
+      },
+      {
+        "name": "forceRecalculate",
+        "duration_ms": 4
+      },
+      {
+        "name": "reloadLog.bake",
+        "duration_ms": 0
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782863338210
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782863338217
+      },
+      {
+        "name": "tags_reload",
+        "timestamp_ms": 1782863338295
+      },
+      {
+        "name": "stacklist_reload",
+        "timestamp_ms": 1782863338315
+      },
+      {
+        "name": "stacklist_bake",
+        "timestamp_ms": 1782863339832
+      },
+      {
+        "name": "recipes_bake",
+        "timestamp_ms": 1782863339868
+      },
+      {
+        "name": "bom_reload",
+        "timestamp_ms": 1782863340160
+      },
+      {
+        "name": "persistent_data_load",
+        "timestamp_ms": 1782863340161
+      },
+      {
+        "name": "step_Baking_search",
+        "timestamp_ms": 1782863340172
+      },
+      {
+        "name": "search_bake",
+        "timestamp_ms": 1782863340172
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782863340200
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782863340200
+      },
+      {
+        "name": "after_search_update",
+        "timestamp_ms": 1782863340204
+      },
+      {
+        "name": "after_force_recalculate",
+        "timestamp_ms": 1782863340208
+      },
+      {
+        "name": "after_reload_log_bake",
+        "timestamp_ms": 1782863340210
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782863340210
+      }
+    ]
+  },
+  {
+    "timestamp": 1782863610162,
+    "reload_number": 2,
+    "total_ms": 2,
+    "cache_hit": false,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 2
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782863610160
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782863610162
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782863610162
+      }
+    ]
+  },
+  {
+    "timestamp": 1782863724066,
+    "reload_number": 1,
+    "total_ms": 1307,
+    "cache_hit": false,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from emi",
+        "duration_ms": 57
+      },
+      {
+        "name": "Initializing plugin from sophisticatedcore",
+        "duration_ms": 9
+      },
+      {
+        "name": "Initializing plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from curios",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from travelerscompass",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from sophisticatedstorage",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from ali",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from toomanyrecipeviewers",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Initializing...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 4
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 0
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 27
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from emi",
+        "duration_ms": 256
+      },
+      {
+        "name": "Loading plugin from sophisticatedcore",
+        "duration_ms": 233
+      },
+      {
+        "name": "Loading plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from curios",
+        "duration_ms": 50
+      },
+      {
+        "name": "Loading plugin from travelerscompass",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from sophisticatedstorage",
+        "duration_ms": 2
+      },
+      {
+        "name": "Loading plugin from ali",
+        "duration_ms": 71
+      },
+      {
+        "name": "Loading plugin from toomanyrecipeviewers",
+        "duration_ms": 114
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 8
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 7ms",
+        "duration_ms": 7
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 7ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 26
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 1ms",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 1ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` with default strategy `SYNC_EMI`...",
+        "duration_ms": 8
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` with default strategy `SYNC_EMI`...",
+        "duration_ms": 20
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 45ms",
+        "duration_ms": 45
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 45ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 31ms",
+        "duration_ms": 31
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 31ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 1ms",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 1ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` with default strategy `SYNC_EMI`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 47ms",
+        "duration_ms": 47
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 47ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 9
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 3ms",
+        "duration_ms": 3
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 3ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 2ms",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 2ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` with default strategy `SYNC_EMI`...",
+        "duration_ms": 6
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Locking JEI Ingredient Registry...",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Locking JEI Recipe Registry...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 1
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Registering late recipes",
+        "duration_ms": 29
+      },
+      {
+        "name": "Baking recipes",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking search",
+        "duration_ms": 222
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 5
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 8
+      }
+    ],
+    "phases": [
+      {
+        "name": "searchWidget.update",
+        "duration_ms": 3
+      },
+      {
+        "name": "getCraftables",
+        "duration_ms": 0
+      },
+      {
+        "name": "recalculate",
+        "duration_ms": 3
+      },
+      {
+        "name": "forceRecalculate",
+        "duration_ms": 3
+      },
+      {
+        "name": "reloadLog.bake",
+        "duration_ms": 0
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782863722759
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782863722766
+      },
+      {
+        "name": "tags_reload",
+        "timestamp_ms": 1782863722829
+      },
+      {
+        "name": "stacklist_reload",
+        "timestamp_ms": 1782863722857
+      },
+      {
+        "name": "stacklist_bake",
+        "timestamp_ms": 1782863723802
+      },
+      {
+        "name": "recipes_bake",
+        "timestamp_ms": 1782863723831
+      },
+      {
+        "name": "bom_reload",
+        "timestamp_ms": 1782863724039
+      },
+      {
+        "name": "persistent_data_load",
+        "timestamp_ms": 1782863724040
+      },
+      {
+        "name": "step_Baking_search",
+        "timestamp_ms": 1782863724053
+      },
+      {
+        "name": "search_bake",
+        "timestamp_ms": 1782863724053
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782863724058
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782863724058
+      },
+      {
+        "name": "after_search_update",
+        "timestamp_ms": 1782863724061
+      },
+      {
+        "name": "after_force_recalculate",
+        "timestamp_ms": 1782863724064
+      },
+      {
+        "name": "after_reload_log_bake",
+        "timestamp_ms": 1782863724066
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782863724066
+      }
+    ]
+  },
+  {
+    "timestamp": 1782863831140,
+    "reload_number": 2,
+    "total_ms": 548,
+    "cache_hit": true,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from emi",
+        "duration_ms": 10
+      },
+      {
+        "name": "Initializing plugin from sophisticatedcore",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from curios",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from travelerscompass",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from sophisticatedstorage",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from ali",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from toomanyrecipeviewers",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Initializing...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeUnavailable` with default strategy `SYNC_EMI`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeUnavailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeUnavailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 0
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 0
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 12
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from emi",
+        "duration_ms": 31
+      },
+      {
+        "name": "Loading plugin from sophisticatedcore",
+        "duration_ms": 145
+      },
+      {
+        "name": "Loading plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from curios",
+        "duration_ms": 7
+      },
+      {
+        "name": "Loading plugin from travelerscompass",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from sophisticatedstorage",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from ali",
+        "duration_ms": 43
+      },
+      {
+        "name": "Loading plugin from toomanyrecipeviewers",
+        "duration_ms": 65
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 11
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 1ms",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 1ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` with default strategy `SYNC_EMI`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 11ms",
+        "duration_ms": 11
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 11ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 5
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` with default strategy `SYNC_EMI`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Locking JEI Ingredient Registry...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Locking JEI Recipe Registry...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Registering late recipes",
+        "duration_ms": 37
+      },
+      {
+        "name": "Baking recipes",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking search",
+        "duration_ms": 165
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 0
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 0
+      }
+    ],
+    "phases": [
+      {
+        "name": "searchWidget.update",
+        "duration_ms": 0
+      },
+      {
+        "name": "getCraftables",
+        "duration_ms": 0
+      },
+      {
+        "name": "recalculate",
+        "duration_ms": 0
+      },
+      {
+        "name": "forceRecalculate",
+        "duration_ms": 0
+      },
+      {
+        "name": "reloadLog.bake",
+        "duration_ms": 0
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782863830592
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782863830593
+      },
+      {
+        "name": "tags_reload",
+        "timestamp_ms": 1782863830603
+      },
+      {
+        "name": "stacklist_reload",
+        "timestamp_ms": 1782863830615
+      },
+      {
+        "name": "stacklist_bake",
+        "timestamp_ms": 1782863830938
+      },
+      {
+        "name": "recipes_bake",
+        "timestamp_ms": 1782863830975
+      },
+      {
+        "name": "bom_reload",
+        "timestamp_ms": 1782863831137
+      },
+      {
+        "name": "persistent_data_load",
+        "timestamp_ms": 1782863831137
+      },
+      {
+        "name": "step_Baking_search",
+        "timestamp_ms": 1782863831140
+      },
+      {
+        "name": "search_bake",
+        "timestamp_ms": 1782863831140
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782863831140
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782863831140
+      },
+      {
+        "name": "after_search_update",
+        "timestamp_ms": 1782863831140
+      },
+      {
+        "name": "after_force_recalculate",
+        "timestamp_ms": 1782863831140
+      },
+      {
+        "name": "after_reload_log_bake",
+        "timestamp_ms": 1782863831140
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782863831140
+      }
+    ]
+  },
+  {
+    "timestamp": 1782863948346,
+    "reload_number": 3,
+    "total_ms": 0,
+    "cache_hit": true,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 0
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782863948346
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782863948346
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782863948346
+      }
+    ]
+  },
+  {
+    "timestamp": 1782864425479,
+    "reload_number": 1,
+    "total_ms": 1935,
+    "cache_hit": true,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from emi",
+        "duration_ms": 69
+      },
+      {
+        "name": "Initializing plugin from sophisticatedcore",
+        "duration_ms": 13
+      },
+      {
+        "name": "Initializing plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from curios",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from travelerscompass",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from sophisticatedstorage",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from ali",
+        "duration_ms": 0
+      },
+      {
+        "name": "Initializing plugin from toomanyrecipeviewers",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Initializing...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 6
+      },
+      {
+        "name": "Processing tags",
+        "duration_ms": 0
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 21
+      },
+      {
+        "name": "Constructing index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from emi",
+        "duration_ms": 39
+      },
+      {
+        "name": "Loading plugin from sophisticatedcore",
+        "duration_ms": 318
+      },
+      {
+        "name": "Loading plugin from sophisticatedbackpacks",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from curios",
+        "duration_ms": 79
+      },
+      {
+        "name": "Loading plugin from travelerscompass",
+        "duration_ms": 0
+      },
+      {
+        "name": "Loading plugin from sophisticatedstorage",
+        "duration_ms": 3
+      },
+      {
+        "name": "Loading plugin from ali",
+        "duration_ms": 95
+      },
+      {
+        "name": "Loading plugin from toomanyrecipeviewers",
+        "duration_ms": 150
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 12
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 9ms",
+        "duration_ms": 9
+      },
+      {
+        "name": "[TMRV] Dispatching `registerItemSubtypes` took 9ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerFluidSubtypes` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 34
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 1ms",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredients` took 1ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerExtraIngredients` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` with default strategy `ASYNC`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerIngredientAliases` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` with default strategy `SYNC_EMI`...",
+        "duration_ms": 9
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerModInfo` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` with default strategy `SYNC_EMI`...",
+        "duration_ms": 26
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 51ms",
+        "duration_ms": 51
+      },
+      {
+        "name": "[TMRV] Dispatching `registerCategories` took 51ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 500ms",
+        "duration_ms": 500
+      },
+      {
+        "name": "[TMRV] Dispatching `registerVanillaCategoryExtensions` took 500ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeCatalysts` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` with default strategy `SYNC_EMI`...",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerAdvanced` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` with default strategy `ASYNC`...",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 61ms",
+        "duration_ms": 61
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipes` took 61ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 11
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 4ms",
+        "duration_ms": 4
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRecipeTransferHandlers` took 4ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` with default strategy `SYNC_EMI`...",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 2ms",
+        "duration_ms": 2
+      },
+      {
+        "name": "[TMRV] Dispatching `registerGuiHandlers` took 2ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` with default strategy `SYNC_EMI`...",
+        "duration_ms": 4
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 1ms",
+        "duration_ms": 1
+      },
+      {
+        "name": "[TMRV] Dispatching `registerRuntime` took 1ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` with default strategy `SYNC_EMI`...",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Dispatching `onRuntimeAvailable` took 0ms",
+        "duration_ms": 0
+      },
+      {
+        "name": "[TMRV] Locking JEI Ingredient Registry...",
+        "duration_ms": 4
+      },
+      {
+        "name": "[TMRV] Locking JEI Recipe Registry...",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 1
+      },
+      {
+        "name": "Baking index",
+        "duration_ms": 0
+      },
+      {
+        "name": "Registering late recipes",
+        "duration_ms": 50
+      },
+      {
+        "name": "Baking recipes",
+        "duration_ms": 0
+      },
+      {
+        "name": "Baking search",
+        "duration_ms": 313
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 36
+      },
+      {
+        "name": "Finishing up",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 8
+      }
+    ],
+    "phases": [
+      {
+        "name": "searchWidget.update",
+        "duration_ms": 3
+      },
+      {
+        "name": "getCraftables",
+        "duration_ms": 0
+      },
+      {
+        "name": "recalculate",
+        "duration_ms": 2
+      },
+      {
+        "name": "forceRecalculate",
+        "duration_ms": 2
+      },
+      {
+        "name": "reloadLog.bake",
+        "duration_ms": 0
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782864423545
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782864423552
+      },
+      {
+        "name": "tags_reload",
+        "timestamp_ms": 1782864423632
+      },
+      {
+        "name": "stacklist_reload",
+        "timestamp_ms": 1782864423654
+      },
+      {
+        "name": "stacklist_bake",
+        "timestamp_ms": 1782864425072
+      },
+      {
+        "name": "recipes_bake",
+        "timestamp_ms": 1782864425122
+      },
+      {
+        "name": "bom_reload",
+        "timestamp_ms": 1782864425421
+      },
+      {
+        "name": "persistent_data_load",
+        "timestamp_ms": 1782864425422
+      },
+      {
+        "name": "step_Baking_search",
+        "timestamp_ms": 1782864425435
+      },
+      {
+        "name": "search_bake",
+        "timestamp_ms": 1782864425435
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782864425471
+      },
+      {
+        "name": "step_Finishing_up",
+        "timestamp_ms": 1782864425471
+      },
+      {
+        "name": "after_search_update",
+        "timestamp_ms": 1782864425474
+      },
+      {
+        "name": "after_force_recalculate",
+        "timestamp_ms": 1782864425477
+      },
+      {
+        "name": "after_reload_log_bake",
+        "timestamp_ms": 1782864425479
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782864425479
+      }
+    ]
+  },
+  {
+    "timestamp": 1782864646304,
+    "reload_number": 2,
+    "total_ms": 1,
+    "cache_hit": true,
+    "steps": [
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "Clearing data",
+        "duration_ms": 0
+      },
+      {
+        "name": "complete",
+        "duration_ms": 1
+      }
+    ],
+    "checkpoints": [
+      {
+        "name": "clear_recipes",
+        "timestamp_ms": 1782864646303
+      },
+      {
+        "name": "clear_stacklist",
+        "timestamp_ms": 1782864646304
+      },
+      {
+        "name": "run_return",
+        "timestamp_ms": 1782864646304
+      }
+    ]
+  }
+]
